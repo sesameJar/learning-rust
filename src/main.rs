@@ -8,10 +8,11 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointers_ref;
+// mod pointers_ref;
+mod structs;
 
 
 
 fn main() {
-    pointers_ref::run();
+    structs::run();
 }
