@@ -1,0 +1,6 @@
+fn main() {
+    let s = String::from("Hello, world!");
+
+    let hello = &s[0..5]; // not containing 5
+    println!("{}",hello);
+}
